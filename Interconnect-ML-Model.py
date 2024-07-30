@@ -461,6 +461,8 @@ print(confusion_matriz)
 # %% [markdown]
 # Aunque la reduccion de dimensionalidad no mejoro las metricas, nuestro modelo original nos brindo resultados excelentes, hasta ahora los mejores.
 
+# %% [markdown]
+## Modelo 5 CatBoost    
 # %%
 # model_5 = CatBoostClassifier(random_state=12345, verbose=20, loss_function='Logloss', early_stopping_rounds=15)
 
